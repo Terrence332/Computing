@@ -1,2 +1,6 @@
+import time
+import datetime
+
 while True:
-    print(1)
+    time.sleep(1)
+    print(datetime.datetime.now())
